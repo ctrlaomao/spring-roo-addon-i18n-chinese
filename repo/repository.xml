@@ -1,0 +1,21 @@
+<repository lastmodified='20111213115350.086'>
+  <resource id='com.ccb.roo.addon.i18/0.1.0.BUILD' symbolicname='com.ccb.roo.addon.i18' presentationname='spring-roo-addon-i18n-chinese' uri='httppgp://spring-roo-addon-i18n-chinese.googlecode.com/svn/repo/com/ccb/roo/addon/i18/com.ccb.roo.addon.i18/0.1.0.BUILD/com.ccb.roo.addon.i18-0.1.0.BUILD.jar' version='0.1.0.BUILD'>
+    <description>Simple_chinese language support for Spring Roo Web MVC JSP Scaffolding; #mvc,#localization,locale:zh</description>
+    <size>8516</size>
+    <documentation>http://www.some.company</documentation>
+    <license>http://www.gnu.org/copyleft/gpl.html</license>
+    <capability name='bundle'>
+      <p n='symbolicname' v='com.ccb.roo.addon.i18'/>
+      <p n='presentationname' v='spring-roo-addon-i18n-chinese'/>
+      <p n='version' t='version' v='0.1.0.BUILD'/>
+      <p n='manifestversion' v='2'/>
+    </capability>
+    <capability name='package'>
+      <p n='package' v='com.ccb.roo.addon.i18'/>
+      <p n='version' t='version' v='0.0.0'/>
+      <p n='uses:' v='org.springframework.roo.support.util,org.springframework.roo.addon.web.mvc.jsp.i18n'/>
+    </capability>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.addon.web.mvc.jsp.i18n)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.addon.web.mvc.jsp.i18n;version="[1.2,2)"</require>
+    <require name='package' filter='(&amp;(package=org.springframework.roo.support.util)(version&gt;=1.2.0)(!(version&gt;=2.0.0)))' extend='false' multiple='false' optional='false'>Import package org.springframework.roo.support.util;version="[1.2,2)"</require>
+  </resource>
+</repository>
