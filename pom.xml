@@ -4,7 +4,7 @@
   <groupId>com.ccb.roo.addon.i18</groupId>
   <artifactId>com.ccb.roo.addon.i18</artifactId>
   <packaging>bundle</packaging>
-  <version>0.1.0.BUILD</version>
+  <version>0.1.1.BUILD-SNAPSHOT</version>
   <name>spring-roo-addon-i18n-chinese</name>
   <organization>
     <name>Your project/company name goes here (used in copyright and vendor information in the manifest)</name>
@@ -71,9 +71,9 @@
     </dependency>
   </dependencies>
   <scm>
-    <connection>scm:svn:https://${google.code.project.name}.googlecode.com/svn/tags/com.ccb.roo.addon.i18-0.1.0.BUILD-SNAPSHOT</connection>
-    <developerConnection>scm:svn:https://${google.code.project.name}.googlecode.com/svn/tags/com.ccb.roo.addon.i18-0.1.0.BUILD-SNAPSHOT</developerConnection>
-    <url>http://code.google.com/p/${google.code.project.name}/source/browse/tags/com.ccb.roo.addon.i18-0.1.0.BUILD-SNAPSHOT</url>
+    <connection>scm:svn:https://spring-roo-addon-i18n-chinese.googlecode.com/svn/trunk</connection>
+    <developerConnection>scm:svn:https://spring-roo-addon-i18n-chinese.googlecode.com/svn/trunk</developerConnection>
+    <url>http://code.google.com/p/spring-roo-addon-i18n-chinese/source/browse</url>
   </scm>
   <distributionManagement>
     <repository>
