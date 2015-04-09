@@ -1,0 +1,1 @@
+spring Roo Add-On to provide Chinese translation for Spring MVC scaffolding
